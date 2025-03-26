@@ -3,7 +3,7 @@ kind: ApiV4Definition
 metadata:
   name: drinks-api
 spec:
-  name: "Drinks API"
+  name: "Beer API"
   contextRef: 
     name: context
   description: "An API for ordering pizza"

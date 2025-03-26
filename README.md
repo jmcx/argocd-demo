@@ -27,8 +27,7 @@ kubectl rollout restart statefulset argocd-application-controller
 statefulset.apps/argocd-application-controller restarted 
 
 
-argocd app create graviteeapis --repo https://github.com/jmcx/argocd-demo.git --path . --dest-server https://kubernetes.default.svc --sync-policy automated
-application 'graviteeapis' created
+argocd app create graviteeapis --repo https://github.com/jmcx/argocd-demo.git --path "." --dest-namespace default --dest-server https://kubernetes.default.svc --sync-policy automated
 
 
 argocd app get graviteeapis

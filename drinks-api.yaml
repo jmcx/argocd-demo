@@ -1,7 +1,7 @@
 apiVersion: gravitee.io/v1alpha1
 kind: ApiV4Definition
 metadata:
-  name: pizza-api
+  name: drinks-api
 spec:
   name: "Drinks API"
   contextRef: 

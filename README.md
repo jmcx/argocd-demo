@@ -34,3 +34,5 @@ argocd app get graviteeapis
 
 
 argocd app sync graviteeapis
+
+argocd app sync gravitee --prune

@@ -3,10 +3,10 @@ kind: ApiV4Definition
 metadata:
   name: drinks-api
 spec:
-  name: "Drinks API"
+  name: "Drinks API NEW"
   contextRef: 
     name: context
-  description: "An API for ordering drinks (non-alcoholic)"
+  description: "An API for ordering drinks"
   version: "1.0"
   type: PROXY
   listeners:

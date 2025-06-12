@@ -6,7 +6,7 @@ spec:
   name: "Drinks API"
   contextRef: 
     name: context
-  description: "An API for ordering drinks"
+  description: "An API for ordering drinks (non-alcoholic)"
   version: "1.0"
   type: PROXY
   listeners:
